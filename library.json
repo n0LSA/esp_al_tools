@@ -1,0 +1,36 @@
+{
+  "name": "esp_al_tools",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Utility tools for esp8266/esp32",
+  "keywords": "tools",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/AdriLighting/esp_al_tools.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Grellard Adrien",
+      "email": "grellard.adrien@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+    {
+        "owner": "Benoit Blanchon",
+        "name": "ArduinoJson",
+        "version": "https://github.com/bblanchon/ArduinoJson.git"
+    },
+    {
+        "owner": "Paul Stoffregen",
+        "name": "Time",
+        "version": "https://github.com/PaulStoffregen/Time.git"
+    }
+  ],
+  
+  "frameworks": "arduino",
+  "platforms": "espressif8266",
+  "headers": "altoolslib.h"
+}
